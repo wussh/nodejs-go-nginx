@@ -159,9 +159,8 @@ git clone https://github.com/wussh/golang-nginx.git
 Build and run your Golang application:
 
 ```bash
-cd node-go-nginx
-go build
-./node-go-nginx
+cd golang-nginx
+go run main.go
 ```
 
 Follow the remaining steps (firewall, domain pointing, SSL/TLS setup, Nginx installation, and configuration) similar to the Node.js application setup.
