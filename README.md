@@ -51,8 +51,8 @@ pm2 start server.js --name api-main
 ### Step 8: Enable firewall and allow port 22
 
 ```bash
-ufw enable
-ufw allow 22
+sudo ufw enable
+sudo ufw allow 22
 ```
 
 ### Step 9: Point domain to server and set up SSL/TLS with Cloudflare
